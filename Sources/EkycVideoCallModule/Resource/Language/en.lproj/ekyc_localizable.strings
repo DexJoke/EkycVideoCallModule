@@ -1,0 +1,12 @@
+"txt_alert" = "Notification";
+"txt_ok" = "Agree";
+"txt_close" = "Close";
+"txt_dis_connected" = "Network connection error. Please check your Internet connection and try again. Thank you.";
+"txt_session_timeout" = "Your session has expired, please try again";
+"txt_ekyc_problem" = "The request was temporarily interrupted. Please try again later.";
+"txt_resfuse" = "Reject";
+"txt_go_to_setting" = "Go to settings";
+"txt_setting_camera_permissions" = "The app needs Camera permission.\nPlease press the settings button to grant the app permission.";
+"txt_setting_microphone_permissions" = "The app needs Microphone access.\nPlease press the settings button to grant the app permission.";
+"call_label_1" = "Support switchboard";
+"call_label_2" = "Calling...";

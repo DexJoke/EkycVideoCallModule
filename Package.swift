@@ -5,7 +5,8 @@ import PackageDescription
 
 let package = Package(
     name: "EkycVideoCallModule",
-    platforms: [.iOS(.v11)],
+    defaultLocalization: "en",
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -14,17 +15,18 @@ let package = Package(
             targets: ["EkycVideoCallModule"]),
     ],
     dependencies: [
-        //        .package(url: "https://github.com/cbajapan/fcsdk-ios.git", from: "4.0.1")
     ],
     targets: [
         .target(
             name: "EkycVideoCallModule",
             dependencies: [
-                //                .product(name: "FCSDKiOS", package: "fcsdk-ios")
                 "FCSDKiOS",
                 "CBARealTime"
             ],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .process("Resource/Assets/Image")
+            ]
         ),
         .testTarget(
             name: "EkycVideoCallModuleTests",

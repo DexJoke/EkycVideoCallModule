@@ -1,0 +1,12 @@
+"txt_alert" = "Thông báo";
+"txt_ok" = "Đồng ý";
+"txt_close" = "Đóng";
+"txt_dis_connected" = "Lỗi kết nối mạng. Vui lòng kiểm tra kết nối Internet và thử lại.Xin cảm ơn.";
+"txt_session_timeout" = "Phiên làm việc của bạn đã hết hạn, vui lòng thao tác lại";
+"txt_ekyc_problem" = "Yêu cầu tạm thời bị gián đoạn.Quý khách vui lòng thử lại sau.";
+"txt_resfuse" = "Từ chối";
+"txt_go_to_setting" = "Đi tới cài đặt";
+"txt_setting_camera_permissions" = "Ứng dụng cần quyền truy cập Camera.\nVui lòng ấn nút cài đặt để cấp quyền cho ứng dụng.";
+"txt_setting_microphone_permissions" = "Ứng dụng cần quyền truy cập Microphone.\nVui lòng ấn nút cài đặt để cấp quyền cho ứng dụng.";
+"call_label_1" = "Tổng đài hỗ trợ";
+"call_label_2" = "Calling...";
