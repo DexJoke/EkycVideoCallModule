@@ -81,11 +81,13 @@ extension VideoCallVC {
     }
     
     private func endCall() {
-        acbuc.delegate = nil
-        acbuc?.stopSession()
-        acbClientCall?.end()
-        logout()
-        self.dismiss(animated: true)
+        DispatchQueue.main.async { [weak self] in
+            self?.acbuc.delegate = nil
+            self?.acbuc?.stopSession()
+            self?.acbClientCall?.end()
+            self?.logout()
+            self?.dismiss(animated: true)
+        }
     }
     
     private func createCall() {
